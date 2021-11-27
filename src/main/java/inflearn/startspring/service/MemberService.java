@@ -3,6 +3,8 @@ package inflearn.startspring.service;
 
 import inflearn.startspring.domain.Member;
 import inflearn.startspring.repository.MemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;

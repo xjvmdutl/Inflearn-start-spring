@@ -2,6 +2,7 @@ package inflearn.startspring.repository;
 
 
 import inflearn.startspring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
