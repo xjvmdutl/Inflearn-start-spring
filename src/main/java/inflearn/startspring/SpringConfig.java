@@ -1,5 +1,6 @@
 package inflearn.startspring;
 
+import inflearn.startspring.aop.TimeTraceAop;
 import inflearn.startspring.repository.*;
 import inflearn.startspring.service.MemberService;
 import org.springframework.context.annotation.Bean;
@@ -46,4 +47,10 @@ public class SpringConfig {
         //return new JpaMemberRepository(em);
     }
      */
+    /*
+    @Bean
+    public TimeTraceAop timeTraceAop(){
+        return new TimeTraceAop();
+    }
+    */
 }

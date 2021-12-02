@@ -21,6 +21,7 @@ public class MemberController {
     @Autowired//스프링 컨테이너에서 가지고 온다.
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
+        System.out.println("memberService = " + memberService.getClass());
     }
 
     //필드주입
